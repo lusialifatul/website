@@ -83,14 +83,14 @@ st.write("")
 left, right = st.columns([1,1.3])
 
 with left:
-    st.markdown("<div class='card'>", unsafe_allow_html=True)
+    # st.markdown("<div class='card'>", unsafe_allow_html=True)
     st.subheader("Unggah Gambar")
     uploaded = st.file_uploader(
     label="",
     type=["jpg","png","jpeg"],
     label_visibility="collapsed"
     )
-    st.markdown("</div>", unsafe_allow_html=True)
+    # st.markdown("</div>", unsafe_allow_html=True)
 
 with right:
     # st.markdown("<div class='card'>", unsafe_allow_html=True)
