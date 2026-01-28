@@ -93,7 +93,7 @@ with left:
     st.markdown("</div>", unsafe_allow_html=True)
 
 with right:
-    st.markdown("<div class='card'>", unsafe_allow_html=True)
+    # st.markdown("<div class='card'>", unsafe_allow_html=True)
     st.subheader("Hasil Identifikasi")
 
     if uploaded:
