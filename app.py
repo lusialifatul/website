@@ -127,4 +127,4 @@ with right:
     else:
         st.info("Silakan unggah gambar untuk memulai prediksi")
 
-    st.markdown("</div>", unsafe_allow_html=True)
+    # st.markdown("</div>", unsafe_allow_html=True)
